@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image-business.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    color: #fff;
+    font-size: 25px;
+}
+.text-box p{
+    font-size: 10px;
+    margin: 30px 0 40px;
+    color: antiquewhite;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    background-color: green;
+}
+/* Testimonials */
+.testimonials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.ous h1{
+    font-size: 25px;
+}
+.ous p{
+    font-size: 10px;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+}
+/* Case */
+.case{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.case img{
+    width: 300px;
+    height: 200px;
+}
+.w3-light-grey {
+    width: 310px;
+    background-color: #ccc;
+}
+.w3-grey{
+    width: 5px;
+    width: 20px;
+    background: green;
+
+}
+/* Facilitie */
+.facilitie{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+/* herbe */
+.herbe{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.herbe img{
+    width: 300px;
+    height: 200px;
+}
+/* Ordinateur */
+.ordinateur{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.ordinateur img{
+    width: 300px;
+    height: 200px;
+}
+/* Entreprise */
+.entreprisr{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px; 
+}
+.entreprisr img{
+    width: 300px;
+    height: 200px;
+}
+/* Immeuble */
+.immeuble{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px; 
+}
+.immeuble img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
